@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".clases.Otros">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Menu Inicio"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_comenzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comenzar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="190dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/rb_eje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eje" />
+
+        <RadioButton
+            android:id="@+id/rb_tema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tema" />
+
+        <RadioButton
+            android:id="@+id/rb_complejidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complejidad" />
+
+        <RadioButton
+            android:id="@+id/rb_habilidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Habilidad" />
+
+        <RadioButton
+            android:id="@+id/rb_actividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actividad" />
+
+        <RadioButton
+            android:id="@+id/rb_resultadoactividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado de Actividad" />
+
+        <RadioButton
+            android:id="@+id/rb_imagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imagen" />
+
+        <RadioButton
+            android:id="@+id/rb_audio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Audio" />
+
+        <RadioButton
+            android:id="@+id/rb_detalleactividad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detalle de Actividad" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

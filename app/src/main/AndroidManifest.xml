@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appaprendizaje2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".clases.Memoria"></activity>
+        <activity android:name=".clases.Percepcion" />
+        <activity android:name=".clases.Otros" />
+        <activity android:name=".clases.Atencion" />
+        <activity android:name=".clases.DetalleActividad" />
+        <activity android:name=".clases.Audio" />
+        <activity android:name=".clases.Imagen" />
+        <activity android:name=".clases.ResultadoActividad" />
+        <activity android:name=".clases.Actividad" />
+        <activity android:name=".clases.Habilidad" />
+        <activity android:name=".clases.Complejidad" />
+        <activity android:name=".clases.Tema" />
+        <activity android:name=".clases.Eje" />
+        <activity android:name=".clases.MenuJuego" />
+        <activity android:name=".clases.Asignacion_Cargo" />
+        <activity android:name=".clases.AgregarCargo" />
+        <activity android:name=".clases.AgregarUsuario" />
+        <activity android:name=".clases.Administrativo" />
+        <activity android:name=".clases.Aprendizaje" />
+        <activity android:name=".clases.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
